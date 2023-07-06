@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+:root{
+    --heading: #66fcf1;
+    --icon-list: #45a293;
+    --text: #c5c6c7;
+    --soft-bg: #1f2833;
+    --hard-bg: #0b0c10;
+}
+
+html{
+    background-color: rgb(56, 56, 56);
+    scroll-behavior: smooth;
+}
+
