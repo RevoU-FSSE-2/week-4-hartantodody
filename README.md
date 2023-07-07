@@ -24,12 +24,12 @@ You need to prepare :
 1. Go to [Netlify](https://www.netlify.com/).
 2. Click on the **Sign up** button on the top right corner of the page. *(If you already have netlify account, skip step 2-4)*
 ![Step 1.2](/readme-img/Screenshot%202023-07-07%20224715.png)
-3. Click on the **Sign up with GitHub** button.
+3. Click on the **Sign up with GitHub** button.\
 ![Step 1.3](/readme-img/Screenshot%202023-07-07%20225112.png)
-4. Type your email and password for your registered GitHub Account. And then click **Sign In**.
+4. Type your email and password for your registered GitHub Account. And then click **Sign In**.\
 ![Step 1.4](/readme-img/Screenshot%202023-07-07%20225906.png)
 5. In your dashboard menu, look on the left sidebar menu and select **Sites**.
-6. You will see all the sites that you have been deployed. Click **Add new site** on the top right deploys list and select **import an existing project**.
+6. You will see all the sites that you have been deployed. Click **Add new site** on the top right deploys list and select **import an existing project**.\
 ![Step 1.6](/readme-img/Screenshot%202023-07-07%20230428.png)
 7. On the Connect to Git Provider menu select GitHub as your provider.
 ![Step 1.7](/readme-img/Screenshot%202023-07-07%20230657.png)
