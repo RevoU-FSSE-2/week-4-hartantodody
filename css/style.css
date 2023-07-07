@@ -23,7 +23,6 @@ html{
 }
 
 /* NAVIGATION BAR */
-
 header nav ul{
     display: flex;
     justify-content: space-between;
