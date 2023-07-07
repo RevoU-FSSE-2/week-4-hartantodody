@@ -130,3 +130,13 @@ footer .contact-me .footer-text span{
         width: 800px;
     }
 }
+
+@media only screen and (min-width: 1600px){
+    main section{
+        width: 700px;
+    }
+
+    main section:nth-child(3), section:nth-child(4){
+        width: 1400px;
+    }
+}
