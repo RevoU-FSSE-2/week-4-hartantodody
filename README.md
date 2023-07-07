@@ -60,7 +60,7 @@ And there you go! Now you have your own website with your desired name. In the n
 ![Step 2.5](/readme-img/4.PNG)
 Click **Checkout Sekarang** to pay, and do the payment as the insctruction said.
 6. After your payment successfull, wait for a few minutes and your custom domain should be active like shown in the picture below.
-![Step 2.6](/readme-img/5.PNG)
+![Step 2.6](/readme-img/5.png)
 
 ### 3. Setting Up Custom Domain with Cloudflare
 1. Go to [Cloudflare](https://dash.cloudflare.com/).
@@ -72,26 +72,26 @@ Click **Checkout Sekarang** to pay, and do the payment as the insctruction said.
 ![Step 3.3](/readme-img/8.PNG)
 5. On step 4, you will find a plus logo with **Add site** text button on the top right navigation bar, click it!
 6. Add your custom domain that you have bought from Niagahoster.
-![Step 3.3](/readme-img/11.png)
+![Step 3.4](/readme-img/11.png)
 7. Choose the Free plan on the bottom.
-![Step 3.3](/readme-img/12.png)
+![Step 3.5](/readme-img/12.png)
 8. Click the blue button **Continue** in this page.
-![Step 3.3](/readme-img/13.png)
+![Step 3.6](/readme-img/13.png)
 9. In the picture below, look at the step 4, and then copy two of the Cloudflare's nameservers.
-![Step 3.3](/readme-img/14.png)
+![Step 3.7](/readme-img/14.png)
 10. Open your Niagahoster account, go to member section, and then click **Kelola Layanan**.
-![Step 3.3](/readme-img/15.png)
+![Step 3.8](/readme-img/15.png)
 11. In this page, click on Ubah Nameserver.
-![Step 3.3](/readme-img/16.png)
+![Step 3.9](/readme-img/16.png)
     Paste the Cloudflare's Nameserver that you have copied before and then click Simpan. 
-![Step 3.3](/readme-img/17.png)
+![Step 3.10](/readme-img/17.png)
 12. Go Back to Cloudflare, add Type, Name, and Target like the picture that shown below. (add root and www CNAME)
-![Step 3.3](/readme-img/19.png)
+![Step 3.11](/readme-img/19.png)
 13. Now open your Netlify account, go to Domain Setting (the one that you changed to your custom domain), and click Add Domain.
-![Step 3.3](/readme-img/20.png)
+![Step 3.12](/readme-img/20.png)
 14. Add your custom domain that you have bought from Niagahoster.
-![Step 3.3](/readme-img/21.png)
+![Step 3.13](/readme-img/21.png)
 15. Voila! Your site will be hosted from Netlify and using the custom domain that you have bought from Niagahoster.
-![Step 3.3](/readme-img/22.png)
+![Step 3.14](/readme-img/22.png)
 
 And that's it, now you have a website with a custom domain name that linked and protected by Cloudflare.
