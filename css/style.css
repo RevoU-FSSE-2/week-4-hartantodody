@@ -8,12 +8,12 @@
 
 @font-face {
     font-family: heading;
-    src: url(/week-4-hartantodody/font/LEMONMILK-Medium.otf);
+    src: url(/font/LEMONMILK-Medium.otf);
 }
 
 @font-face {
     font-family: body;
-    src: url(/week-4-hartantodody/font/GeosansLight.ttf);
+    src: url(/font/GeosansLight.ttf);
 }
 
 *{
@@ -33,7 +33,7 @@ html{
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(/week-4-hartantodody/asset/6189902_3185113.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(/asset/6189902_3185113.webp);
     background-position: center;
     background-size: cover;
 }
