@@ -87,19 +87,19 @@ main .profile-image{
     justify-content: center;
 }
 
-main .portofolio .pic-container{
+.pic-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
         grid-auto-rows: 150px 150px 150px;
 }
     
-main .pic-container .pic1{
+.pic-container .pic1{
         grid-column: 1 / 2 span;
         grid-row: 1;
 }
     
-main .pic-container div img{
+.pic-container div img{
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -107,7 +107,7 @@ main .pic-container div img{
         cursor: pointer;
 }
     
-main .pic-container img:hover{
+.pic-container img:hover{
         filter: none;
 }
 
@@ -183,8 +183,26 @@ footer .contact-me .footer-text span{
         width: 800px;
     }
 
-    main .portofolio .pic-container{
+    .pic-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
         grid-auto-rows: 300px 300px 300px;
+    }
+
+    .pic-container .pic1{
+        grid-column: 2 / 3 span;
+        grid-row: 1 span;
+    }
+
+    .pic-container .pic3{
+        grid-column: 2 / 3 span;
+        grid-row: 3;
+    }
+
+    .pic-container .pic5{
+        grid-column: 1;
+        grid-row: 1/3 span;
     }
 }
 
