@@ -6,6 +6,16 @@
     --hard-bg: #0b0c10;
 }
 
+@font-face {
+    font-family: heading;
+    src: url(/week-4-hartantodody/font/LEMONMILK-Medium.otf);
+}
+
+@font-face {
+    font-family: body;
+    src: url(/week-4-hartantodody/font/GeosansLight.ttf);
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -13,9 +23,8 @@
     list-style-type: none;
     text-decoration: none;
     color: var(--text);
-    font-family: Helvetica;
+    font-family: body;
 }
-
 
 
 html{
@@ -23,6 +32,20 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(/week-4-hartantodody/asset/6189902_3185113.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+body h1{
+    color: var(--heading);
+    font-size: 1.5em;
+    text-align: center;
+    font-family: heading;
+}
+
+/* NAVIGATION BAR */
 header nav ul{
     display: flex;
     justify-content: space-between;
@@ -31,13 +54,20 @@ header nav ul{
     height: 65px;
     padding: 16px;
     position: fixed;
-    background: linear-gradient(180deg, #0000001b, #000000a0);
+    background: var(--hard-bg);
     font-size: 0.8rem;
 }
 
 header nav ul a{
     padding:16px;
 }
+
+header nav ul li a:hover{
+    background-color: var(--heading);
+    color: black;
+    border: none;
+}
+
 /* ALL CONTENT */
 main{
     display: flex;
@@ -47,25 +77,26 @@ main{
     padding: 15px;
 }
 
+
+main .profile-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 section{
     margin: 20px 10px;
-
 }
 
-h1{
-    color: var(--heading);
-    font-size: 2em;
-    text-align: center;
-}
-
-p{
+main p{
     font-size: 0.8rem;
 }
 
-img{
+main img{
     width: 300px;
 }
 
+
+/* FOOTER SECTION */
 footer{
     margin: 5px;
 }
@@ -116,12 +147,6 @@ footer .contact-me .footer-text span{
         gap: 50px;
     }
 
-    header nav ul li a:hover{
-        background-color: var(--heading);
-        color: black;
-        border: none;
-    }
-
     main section{
         width: 400px;
     }
@@ -132,11 +157,7 @@ footer .contact-me .footer-text span{
 }
 
 @media only screen and (min-width: 1600px){
-    main section{
-        width: 700px;
-    }
-
-    main section:nth-child(3), section:nth-child(4){
-        width: 1400px;
+    main{
+        flex-direction: column;
     }
 }
