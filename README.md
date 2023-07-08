@@ -13,8 +13,8 @@ Right now i am working fulltime as a Loan Administration Staff in a Bank. I real
 
 ## 🌐 My Site Projects
 This is a few of many projects that i have created :
-- ![Dody's Portofolio](https://dodyhartanto.site/) *(the site i used as an example in this guide)*
-- ![Gunner Gang](https://gunnergang.netlify.app/)
+- [Dody's Portofolio](https://dodyhartanto.site/) *(the site i used as an example in this guide)*
+- [Gunner Gang](https://gunnergang.netlify.app/)
 
 ## 📖 Add Custom Domain Guide
 In this section, i will guide you to create a custom domain using Niagahoster and Cloudflare from Netlify that linked with your GitHub account, but before that there is something that you need first.
