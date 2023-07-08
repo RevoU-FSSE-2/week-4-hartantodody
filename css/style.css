@@ -57,6 +57,7 @@ header nav ul{
     position: fixed;
     background: var(--hard-bg);
     font-size: 0.8rem;
+    z-index: 2;
 }
 
 header nav ul a{
