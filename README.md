@@ -11,6 +11,10 @@ I'm a (on a way to be a) full stack developer, and aspiring to be one. I was gra
 
 Right now i am working fulltime as a Loan Administration Staff in a Bank. I realized my interest in Technology especially in Computer Science isn't fading, and believe many opportunities still available in this industry, that's why i tighten my belt and joined RevoU as one of the Full Stack Software Engineering Student. 
 
+## 🌐 My Site Projects
+This is a few of many projects that i have created :
+- ![Dody's Portofolio](https://dodyhartanto.site/) *(the site i used as an example in this guide)*
+- ![Gunner Gang](https://gunnergang.netlify.app/)
 
 ## 📖 Add Custom Domain Guide
 In this section, i will guide you to create a custom domain using Niagahoster and Cloudflare from Netlify that linked with your GitHub account, but before that there is something that you need first.
